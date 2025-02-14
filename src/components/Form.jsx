@@ -2,39 +2,38 @@ import * as React from 'react';
 
 export default function Form(){
     return (
-        <div>
+        <div className=' bg-white px-10 py-20 rounded-3xl border-2 border-gray-100'>
           <h1 className=' text-5xl font-semibold'>Welcome Back</h1>
           <p className=' font-medium text-lg text-gray-500 mt-4'>Welcome back § Please enter your details.</p>
-        <div className="">
+        <div className=" mt-8  ">
 
-            <div className=""> 
+            <div className=" text-lg font-medium"> 
                 <label >Email</label>
                 <input  
                 
-                className=''
+                className=' w-full border-2 border-gray-100 rounded-xl p-4 mt-1 bg-transparent'
                 placeholder='entre your email'
                 
                 />
             </div>
-
-            <div className=""> 
+            <div className=" text-lg font-medium"> 
                 <label >Password</label>
                 <input  
                 
-                className=''
-                placeholder='entre your password'
-                type='password'
+                className=' w-full border-2 border-gray-100 rounded-xl p-4 mt-1 bg-transparent'
+                placeholder='entre your Password'
                 
                 />
             </div>
+
             <div>
-                <div>
+                <div> 
                     <input type="checkbox" />
                 </div>
-                <label for="remember"> Rememer for 30 days </label>
+                <label className=' mt-2 font-medium text-base text-violet-500 ' for="remember"> Rememer for 30 days </label>
             </div>
 
-            <button> Forget password </button>
+            <button className=' font-medium text-base text-violet-500  '> Forget password </button>
 
         </div>
         </div>
