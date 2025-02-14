@@ -26,14 +26,18 @@ export default function Form(){
                 />
             </div>
 
-            <div>
+            <div  className=' mt-8 flex justify-between '  >
                 <div> 
-                    <input type="checkbox" />
+                    <input type="checkbox" 
+                    
+                    id='remember'
+
+                    />
                 </div>
-                <label className=' mt-2 font-medium text-base text-violet-500 ' for="remember"> Rememer for 30 days </label>
+                <label className=' ml-2 font-medium text-base ' for="remember"> Remember for 30 days </label>
+            <button className=' font-medium text-base text-violet-500  '> Forget password </button>
             </div>
 
-            <button className=' font-medium text-base text-violet-500  '> Forget password </button>
 
         </div>
         </div>
