@@ -1,12 +1,9 @@
-import React from "react";
+import * as React from 'react';
 
-export default function Forms(){
+export default function Form(){
     return (
-
-        
         <div>
-        hello form </div>
-    
+            hello  forms
+        </div>
     )
-
 }
