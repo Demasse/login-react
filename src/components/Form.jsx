@@ -26,7 +26,7 @@ export default function Form(){
                 />
             </div>
 
-            <div  className=' mt-8 flex justify-between '  >
+            <div  className=' mt-8 flex justify-between items-center '  >
                 <div> 
                     <input type="checkbox" 
                     
@@ -37,7 +37,10 @@ export default function Form(){
                 <label className=' ml-2 font-medium text-base ' for="remember"> Remember for 30 days </label>
             <button className=' font-medium text-base text-violet-500  '> Forget password </button>
             </div>
-
+               <div className=" mt-8 flex flex-col gap-y-4 ">
+                <button className=' active:scale-[0.98] active:duration-75 transition-all hover:scale-[1.01 ease-in-out] bg-violet-500 py-3 rounded-xl text-white text-lg font-bold  ' >sign in</button>
+                <button className='  ' > Sign in with Google</button>
+               </div>
 
         </div>
         </div>
