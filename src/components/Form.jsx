@@ -39,7 +39,8 @@ export default function Form(){
             </div>
                <div className=" mt-8 flex flex-col gap-y-4 ">
                 <button className=' active:scale-[0.98] active:duration-75 transition-all hover:scale-[1.01 ease-in-out] bg-violet-500 py-3 rounded-xl text-white text-lg font-bold  ' >sign in</button>
-                <button className='  ' > Sign in with Google</button>
+                <button className=' items-center justify-center active:scale-[0.98] active:duration-75 transition-all hover:scale-[1.01 ease-in-out]  py-3 rounded-xl text-black text-lg font-bold  border-2 border-violet-800  ' >
+                     Sign in with Google</button>
                </div>
 
         </div>
